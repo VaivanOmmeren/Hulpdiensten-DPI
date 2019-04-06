@@ -4,7 +4,7 @@ public class BrandweerClientGateway {
 
     public BrandweerClientGateway(){
         try{
-            messageReceiver = new MessageReceiver("BrandweerQueue");
+            messageReceiver = new MessageReceiver("BrandweerQueue", "Brandweer");
         } catch (Exception e){
             e.printStackTrace();
         }

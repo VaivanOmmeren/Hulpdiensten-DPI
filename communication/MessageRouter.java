@@ -43,13 +43,13 @@ public class MessageRouter {
 
             switch (service) {
                 case "Politie":
-                    politieSender.sendMessage(message);
+                    politieSender.sendRoutedMessage(message, "Politie");
                     break;
                 case "Ambulance":
-                    ambulanceSender.sendMessage(message);
+                    ambulanceSender.sendRoutedMessage(message, "Ambulance");
                     break;
                 case "Brandweer":
-                    brandweerSender.sendMessage(message);
+                    brandweerSender.sendRoutedMessage(message, "Brandweer");
                     break;
             }
         };

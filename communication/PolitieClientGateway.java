@@ -4,7 +4,7 @@ public class PolitieClientGateway {
 
     public PolitieClientGateway(){
         try{
-            messageReceiver = new MessageReceiver("PolitieQueue");
+            messageReceiver = new MessageReceiver("PolitieQueue", "Politie");
         } catch (Exception e){
             e.printStackTrace();
         }

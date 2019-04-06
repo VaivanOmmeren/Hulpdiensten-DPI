@@ -4,7 +4,7 @@ public class AmbulanceClientGateway {
 
     public AmbulanceClientGateway(){
         try{
-            messageReceiver = new MessageReceiver("AmbulanceQueue");
+            messageReceiver = new MessageReceiver("AmbulanceQueue", "ambulance");
         } catch (Exception e ){
             e.printStackTrace();
         }

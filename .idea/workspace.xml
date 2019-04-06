@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74515936-cb1c-4e51-a98e-177895c0c9fa" name="Default Changelist" comment="" />
+    <list default="true" id="74515936-cb1c-4e51-a98e-177895c0c9fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communication/AmbulanceClientGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/AmbulanceClientGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communication/BrandweerClientGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/BrandweerClientGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communication/DeadLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/DeadLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communication/MeldingClientGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/MeldingClientGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communication/MeldkamerClientGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/MeldkamerClientGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communication/MessageReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/MessageReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communication/MessageRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/MessageRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communication/MessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/MessageSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communication/PolitieClientGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/PolitieClientGateway.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,115 +26,143 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clients/MeldingSysteem/MeldingClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clients/Meldkamer/MeldkamerClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/communication/MessageRouter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/communication/DeadLetter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/communication/MessageSender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1306">
-              <caret line="42" column="106" selection-start-line="42" selection-start-column="106" selection-end-line="42" selection-end-column="106" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/communication/AmbulanceClientGateway.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/communication/MeldingClientGateway.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/communication/PolitieClientGateway.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/communication/MessageReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clients/Ambulance/AmbulanceClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding>
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/clients/Meldkamer/MeldkamerClient.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="184">
+                  <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+                  <folding>
+                    <element signature="e#256#257#0" expanded="true" />
+                    <element signature="e#325#326#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/communication/MessageRouter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="391">
+                  <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/communication/DeadLetter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="552">
+                  <caret line="24" column="109" selection-start-line="24" selection-start-column="109" selection-end-line="24" selection-end-column="109" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/communication/MessageSender.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1034">
+                  <caret line="49" column="106" selection-start-line="49" selection-start-column="94" selection-end-line="49" selection-end-column="106" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/communication/AmbulanceClientGateway.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="276">
+                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/communication/BrandweerClientGateway.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="138">
+                  <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/communication/PolitieClientGateway.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="138">
+                  <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/communication/MeldingClientGateway.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="184">
+                  <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/communication/MeldkamerClientGateway.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="230">
+                  <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/communication/MessageReceiver.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="644">
+                  <caret line="30" column="89" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/communication/MessageRouter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="253">
+                  <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/communication/MessageReceiver.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="874">
+                  <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -130,6 +170,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -141,20 +184,20 @@
         <option value="$PROJECT_DIR$/clients/MeldingSysteem/MeldingSysteemClient.java" />
         <option value="$PROJECT_DIR$/clients/BrandweerClient/BrandweerClient.java" />
         <option value="$PROJECT_DIR$/clients/AmbulanceClient/AmbulanceClient.java" />
-        <option value="$PROJECT_DIR$/clients/Meldkamer/MeldkamerClient.java" />
-        <option value="$PROJECT_DIR$/communication/MeldkamerClientGateway.java" />
-        <option value="$PROJECT_DIR$/communication/PolitieClientGateway.java" />
-        <option value="$PROJECT_DIR$/communication/AmbulanceClientGateway.java" />
-        <option value="$PROJECT_DIR$/communication/BrandweerClientGateway.java" />
         <option value="$PROJECT_DIR$/clients/Ambulance/AmbulanceClient.java" />
         <option value="$PROJECT_DIR$/clients/Brandweer/BrandweerClient.java" />
         <option value="$PROJECT_DIR$/clients/Politie/PolitieClient.java" />
+        <option value="$PROJECT_DIR$/clients/MeldingSysteem/MeldingClient.java" />
+        <option value="$PROJECT_DIR$/communication/MeldingClientGateway.java" />
+        <option value="$PROJECT_DIR$/clients/Meldkamer/MeldkamerClient.java" />
+        <option value="$PROJECT_DIR$/communication/MeldkamerClientGateway.java" />
+        <option value="$PROJECT_DIR$/communication/AmbulanceClientGateway.java" />
+        <option value="$PROJECT_DIR$/communication/BrandweerClientGateway.java" />
+        <option value="$PROJECT_DIR$/communication/PolitieClientGateway.java" />
         <option value="$PROJECT_DIR$/communication/MessageSender.java" />
         <option value="$PROJECT_DIR$/communication/MessageRouter.java" />
-        <option value="$PROJECT_DIR$/communication/MeldingClientGateway.java" />
-        <option value="$PROJECT_DIR$/clients/MeldingSysteem/MeldingClient.java" />
-        <option value="$PROJECT_DIR$/communication/MessageReceiver.java" />
         <option value="$PROJECT_DIR$/communication/DeadLetter.java" />
+        <option value="$PROJECT_DIR$/communication/MessageReceiver.java" />
       </list>
     </option>
   </component>
@@ -166,10 +209,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="817" />
-    <option name="y" value="116" />
-    <option name="width" value="1887" />
-    <option name="height" value="2154" />
+    <option name="x" value="328" />
+    <option name="y" value="27" />
+    <option name="width" value="3215" />
+    <option name="height" value="2133" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -238,8 +281,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -329,21 +374,22 @@
       <workItem from="1554287068841" duration="15104000" />
       <workItem from="1554455160714" duration="3414000" />
       <workItem from="1554462564186" duration="5386000" />
+      <workItem from="1554553305898" duration="7444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23904000" />
+    <option name="totallyTimeSpent" value="31348000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="817" y="116" width="1887" height="2154" extended-state="0" />
+    <frame x="328" y="27" width="3215" height="2133" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.50913113" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2994012" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -352,12 +398,12 @@
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.33176348" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32952285" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32977587" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32952285" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -409,20 +455,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clients/MeldingSysteem/MeldingSysteemClient.java" />
-    <entry file="file://$PROJECT_DIR$/communication/MeldkamerClientGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communication/BrandweerClientGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clients/Politie/PolitieClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -449,7 +481,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clients/Ambulance/AmbulanceClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="92">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding>
             <element signature="e#134#135#0" expanded="true" />
@@ -458,10 +490,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/clients/MeldingSysteem/MeldingClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/clients/Meldkamer/MeldkamerClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="184">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding>
             <element signature="e#256#257#0" expanded="true" />
             <element signature="e#325#326#0" expanded="true" />
@@ -469,20 +508,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communication/MessageRouter.java">
+    <entry file="file://$PROJECT_DIR$/communication/AmbulanceClientGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="276">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communication/BrandweerClientGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/communication/MessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1306">
-          <caret line="42" column="106" selection-start-line="42" selection-start-column="106" selection-end-line="42" selection-end-column="106" />
+        <state relative-caret-position="1034">
+          <caret line="49" column="106" selection-start-line="49" selection-start-column="94" selection-end-line="49" selection-end-column="106" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -491,46 +534,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/communication/PolitieClientGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communication/AmbulanceClientGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="138">
+          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/communication/MeldingClientGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="184">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clients/MeldingSysteem/MeldingClient.java">
+    <entry file="file://$PROJECT_DIR$/communication/MeldkamerClientGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        <state relative-caret-position="230">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communication/MessageReceiver.java">
+    <entry file="file://$PROJECT_DIR$/communication/DeadLetter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+        <state relative-caret-position="552">
+          <caret line="24" column="109" selection-start-line="24" selection-start-column="109" selection-end-line="24" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communication/MessageRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communication/DeadLetter.java">
+    <entry file="file://$PROJECT_DIR$/communication/MessageReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="874">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

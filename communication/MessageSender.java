@@ -4,6 +4,8 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.Channel;
 
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeoutException;
 
 public class MessageSender {
@@ -26,9 +28,13 @@ public class MessageSender {
         }
     }
 
-    public void sendMessage(String messageText){
+    public void sendRoutedMessage(String messageText, String service){
         try{
-            channel.queueDeclare(exchangeName, false, false, false, null);;
+            Map<String, Object> args = new HashMap<>();
+            args.put("x-message-ttl", 2000);
+            args.put("x-dead-letter-exchange", "dlx");
+            args.put("x-dead-letter-routing-key", service);
+            channel.queueDeclare(exchangeName, false, false, false, args);;
             channel.basicPublish("", exchangeName, null, messageText.getBytes("UTF-8"));
             System.out.println("[x] Sent '" + messageText + "'" + " to " + exchangeName);
         } catch (IOException e){
@@ -38,6 +44,7 @@ public class MessageSender {
 
     public void sendMessage(String service, String messageText){
         try{
+
             channel.exchangeDeclare(exchangeName, BuiltinExchangeType.DIRECT);
             channel.basicPublish(exchangeName, service, null , messageText.getBytes("UTF-8"));
             System.out.println("[x] Sent '" + service + "':'" + messageText + "'" + " to " +  exchangeName);
