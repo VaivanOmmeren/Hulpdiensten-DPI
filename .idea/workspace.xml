@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74515936-cb1c-4e51-a98e-177895c0c9fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/communication/CarGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/PolitieAutoClients/Auto1.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/PolitieAutoClients/Auto1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/communication/AmbulanceClientGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/AmbulanceClientGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/communication/BrandweerClientGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/BrandweerClientGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/communication/DeadLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/DeadLetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/communication/MeldkamerClientGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/MeldkamerClientGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/PolitieAutoClients/Auto2.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/PolitieAutoClients/Auto2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/PolitieAutoClients/Auto3.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/PolitieAutoClients/Auto3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communication/CarGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/CarGateway.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/communication/MessageReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/MessageReceiver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/communication/MessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/MessageSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/communication/PolitieClientGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/PolitieClientGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AmbulanceClientGateway.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AmbulanceClientGateway.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BrandweerClientGateway.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BrandweerClientGateway.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MessageReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MessageReceiver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PolitieClientGateway.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PolitieClientGateway.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,18 +56,6 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/communication/MessageRouter.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/communication/DeadLetter.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="92">
@@ -117,10 +97,25 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/communication/PolitieClientGateway.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+                <state relative-caret-position="667">
+                  <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/clients/PolitieAutoClients/Auto1.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+                  <folding>
+                    <element signature="e#100#101#0" expanded="true" />
+                    <element signature="e#141#142#0" expanded="true" />
+                    <element signature="e#162#163#0" expanded="true" />
+                    <element signature="e#207#208#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -152,6 +147,15 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/clients/MeldingSysteem/MeldingClient.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="437">
+                  <caret line="19" column="44" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="44" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/communication/MessageRouter.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="253">
@@ -166,8 +170,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/communication/MessageReceiver.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="712">
-                  <caret line="58" column="83" selection-start-line="58" selection-start-column="83" selection-end-line="58" selection-end-column="83" />
+                <state relative-caret-position="1242">
+                  <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -193,8 +197,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/communication/CarGateway.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+                <state relative-caret-position="138">
+                  <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
                 </state>
               </provider>
             </entry>
@@ -202,8 +206,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/communication/MessageSender.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="988">
-                  <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+                <state relative-caret-position="873">
+                  <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -228,8 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/clients/PolitieAutoClients/Auto2.java" />
-        <option value="$PROJECT_DIR$/clients/PolitieAutoClients/Auto3.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/clients/MeldingSysteem/MeldingSysteemClient.java" />
         <option value="$PROJECT_DIR$/clients/BrandweerClient/BrandweerClient.java" />
@@ -240,15 +242,17 @@
         <option value="$PROJECT_DIR$/clients/MeldingSysteem/MeldingClient.java" />
         <option value="$PROJECT_DIR$/communication/MeldingClientGateway.java" />
         <option value="$PROJECT_DIR$/communication/MessageRouter.java" />
-        <option value="$PROJECT_DIR$/communication/CarGateway.java" />
         <option value="$PROJECT_DIR$/clients/PolitieAutoClients/Auto1.java" />
         <option value="$PROJECT_DIR$/clients/Meldkamer/MeldkamerClient.java" />
         <option value="$PROJECT_DIR$/communication/MeldkamerClientGateway.java" />
         <option value="$PROJECT_DIR$/communication/DeadLetter.java" />
         <option value="$PROJECT_DIR$/communication/BrandweerClientGateway.java" />
         <option value="$PROJECT_DIR$/communication/AmbulanceClientGateway.java" />
-        <option value="$PROJECT_DIR$/communication/MessageSender.java" />
+        <option value="$PROJECT_DIR$/communication/CarGateway.java" />
         <option value="$PROJECT_DIR$/communication/MessageReceiver.java" />
+        <option value="$PROJECT_DIR$/communication/MessageSender.java" />
+        <option value="$PROJECT_DIR$/clients/PolitieAutoClients/Auto2.java" />
+        <option value="$PROJECT_DIR$/clients/PolitieAutoClients/Auto3.java" />
         <option value="$PROJECT_DIR$/communication/PolitieClientGateway.java" />
       </list>
     </option>
@@ -352,6 +356,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Multirun.Unnamed">
+    <configuration name="Unnamed" type="Applet" nameIsGenerated="true">
+      <module name="DPI Implementatie" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Auto1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Auto1" />
       <module name="DPI Implementatie" />
@@ -359,8 +369,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrandweerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BrandweerClient" />
+    <configuration name="Auto2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Auto2" />
+      <module name="DPI Implementatie" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Auto3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Auto3" />
       <module name="DPI Implementatie" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -373,7 +390,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MeldkamerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MeldkamerClient" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="MeldkamerClient" />
       <module name="DPI Implementatie" />
       <method v="2">
@@ -389,26 +406,30 @@
     </configuration>
     <configuration name="Unnamed" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
       <runConfiguration name="MeldingClient" type="Application" />
-      <runConfiguration name="Auto1" type="Application" />
       <runConfiguration name="MeldkamerClient" type="Application" />
       <runConfiguration name="PolitieClient" type="Application" />
+      <runConfiguration name="Auto1" type="Application" />
+      <runConfiguration name="Auto2" type="Application" />
+      <runConfiguration name="Auto3" type="Application" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MeldingClient" />
-      <item itemvalue="Application.BrandweerClient" />
-      <item itemvalue="Application.Auto1" />
+      <item itemvalue="Applet.Unnamed" />
       <item itemvalue="Application.MeldkamerClient" />
       <item itemvalue="Application.PolitieClient" />
+      <item itemvalue="Application.Auto3" />
+      <item itemvalue="Application.Auto2" />
+      <item itemvalue="Application.MeldingClient" />
+      <item itemvalue="Application.Auto1" />
       <item itemvalue="Multirun.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PolitieClient" />
-        <item itemvalue="Application.MeldkamerClient" />
+        <item itemvalue="Application.Auto3" />
+        <item itemvalue="Application.Auto2" />
         <item itemvalue="Application.Auto1" />
+        <item itemvalue="Application.PolitieClient" />
         <item itemvalue="Application.MeldingClient" />
-        <item itemvalue="Application.BrandweerClient" />
       </list>
     </recent_temporary>
   </component>
@@ -425,23 +446,22 @@
       <workItem from="1554287068841" duration="15104000" />
       <workItem from="1554455160714" duration="3414000" />
       <workItem from="1554462564186" duration="5386000" />
-      <workItem from="1554553305898" duration="12353000" />
+      <workItem from="1554553305898" duration="13842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36257000" />
+    <option name="totallyTimeSpent" value="37746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="328" y="27" width="3215" height="2133" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" sideWeight="0.50074404" side_tool="true" visible="true" weight="0.18184683" />
+      <window_info id="Favorites" order="3" sideWeight="0.50074404" side_tool="true" weight="0.18184683" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49925596" visible="true" weight="0.18184683" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49925596" visible="true" weight="0.18184683" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -450,7 +470,7 @@
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.33200794" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.33200794" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -485,20 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clients/PolitieAutoClients/Auto3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clients/PolitieAutoClients/Auto2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clients/MeldingSysteem/MeldingSysteemClient.java" />
     <entry file="file://$PROJECT_DIR$/clients/Brandweer/BrandweerClient.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -522,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clients/MeldingSysteem/MeldingClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/communication/MeldingClientGateway.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -538,8 +537,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/communication/MessageRouter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        <state relative-caret-position="253">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -578,19 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clients/PolitieAutoClients/Auto1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clients/Politie/PolitieClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -604,10 +590,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/communication/DeadLetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/communication/CarGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="138">
+          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/PolitieAutoClients/Auto3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/PolitieAutoClients/Auto2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding>
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -617,6 +636,26 @@
           <caret line="49" column="106" selection-start-line="49" selection-start-column="94" selection-end-line="49" selection-end-column="106" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/MeldingSysteem/MeldingClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/PolitieAutoClients/Auto1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -631,17 +670,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communication/DeadLetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/communication/PolitieClientGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+        <state relative-caret-position="667">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

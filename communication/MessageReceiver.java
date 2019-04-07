@@ -52,7 +52,7 @@ public class MessageReceiver {
         connection = factory.newConnection();
         channel = connection.createChannel();
         Map<String, Object> args = new HashMap<>();
-        args.put("x-message-ttl", 2000);
+        args.put("x-message-ttl", 60000);
         args.put("x-dead-letter-exchange", "dlx-police-car");
         args.put("x-dead-letter-routing-key", "police-car");
         channel.queueDeclare(carQueueName, false, false, false, args);

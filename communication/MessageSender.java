@@ -55,7 +55,7 @@ public class MessageSender {
 
     public void sendMessageToCar(String message) throws Exception{
         Map<String, Object> args = new HashMap<>();
-        args.put("x-message-ttl", 2000);
+        args.put("x-message-ttl", 60000);
         args.put("x-dead-letter-exchange", "dlx-police-car");
         args.put("x-dead-letter-routing-key", "police-car");
         channel.queueDeclare(exchangeName, false, false, false, args);

@@ -4,7 +4,7 @@ public class CarGateway {
     public CarGateway(){
         try{
             messageReceiver =  new MessageReceiver();
-            messageReceiver.carStartReceiving("car1");
+            messageReceiver.carStartReceiving("policeCarQueue");
         } catch (Exception e){
             e.printStackTrace();
         }

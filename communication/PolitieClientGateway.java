@@ -18,7 +18,7 @@ public class PolitieClientGateway {
             deadLetter = new DeadLetter();
             deadLetter.deadLetterService("dlx-police-car", "police-car");
 
-            messageSender = new MessageSender("car1");
+            messageSender = new MessageSender("policeCarQueue");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -27,7 +27,7 @@ public class PolitieClientGateway {
     public DeliverCallback handleMessages(){
         DeliverCallback deliverCallback = (consumerTag, delivery) -> {
             Random rnd = new Random();
-            int n = rnd.nextInt(2);
+            int n = rnd.nextInt(10);
 
             if (n == 1) {
                 messageReceiver.channel.basicNack(delivery.getEnvelope().getDeliveryTag(), false, false);
