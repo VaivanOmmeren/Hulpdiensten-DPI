@@ -5,6 +5,7 @@ public class AmbulanceClientGateway {
     public AmbulanceClientGateway(){
         try{
             messageReceiver = new MessageReceiver("AmbulanceQueue", "ambulance");
+//            messageReceiver.serviceStartReceiving();
         } catch (Exception e ){
             e.printStackTrace();
         }
