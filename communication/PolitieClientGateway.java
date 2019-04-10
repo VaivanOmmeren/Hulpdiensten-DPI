@@ -2,6 +2,7 @@ import com.rabbitmq.client.DeliverCallback;
 
 import java.util.Random;
 
+@SuppressWarnings("Duplicates")
 public class PolitieClientGateway {
 
     private MessageReceiver messageReceiver;
@@ -14,7 +15,7 @@ public class PolitieClientGateway {
             messageReceiver = new MessageReceiver("PolitieQueue", "Politie");
             messageReceiver.serviceStartReceiving(handleMessages());
             statusUpdateReceiver = new MessageReceiver();
-            statusUpdateReceiver.listenToStatusUpdates("PolitieCarStatusQueue", handleStatusChange());
+            statusUpdateReceiver.listenToStatusUpdates("PoliceCarStatusQueue", handleStatusChange());
             deadLetter = new DeadLetter();
             deadLetter.deadLetterService("dlx-police-car", "police-car");
 
@@ -37,7 +38,7 @@ public class PolitieClientGateway {
                 System.out.println("[x] received '" + message + "'");
                 messageReceiver.channel.basicAck(delivery.getEnvelope().getDeliveryTag(), false);
                 try {
-                    messageSender.sendMessageToCar(message);
+                    messageSender.sendMessageToCar(message, "dlx-police-car", "police-car");
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -49,9 +50,10 @@ public class PolitieClientGateway {
 
     public DeliverCallback handleStatusChange(){
         DeliverCallback callback = (consumerTag, delivery) -> {
-
-            System.out.println("[Status] Received status message, updating car status");
             String message = new String(delivery.getBody(), "UTF-8");
+            System.out.println("[Status] Received status message: " + message + " updating car status");
+            statusUpdateReceiver.channel.basicAck(delivery.getEnvelope().getDeliveryTag(), false);
+
         };
         return callback;
     }

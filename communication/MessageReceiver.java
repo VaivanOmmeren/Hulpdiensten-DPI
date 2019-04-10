@@ -41,7 +41,7 @@ public class MessageReceiver {
         channel = connection.createChannel();
 
         channel.queueDeclare(statusQueueName, false, false, false, null);
-        System.out.println("[*] waitin for status messages. To Exit Press CTRL + C");
+        System.out.println("[*] waiting for status messages. To Exit Press CTRL + C");
 
         channel.basicConsume(statusQueueName, false, callback, consumerTag -> {});
     }
@@ -58,21 +58,25 @@ public class MessageReceiver {
         channel.queueDeclare(carQueueName, false, false, false, args);
         System.out.println("[*] Car waiting for messages. To Exit Press CTRL + C");
 
-        channel.basicQos(1);
-        DeliverCallback deliverCallback = (consumerTag, delivery) ->{
-            String message = new String(delivery.getBody(), "UTF-8");
-            System.out.println("[*] Message received: '" + message + "'");
 
-            try {
-                Thread.sleep(20000);
-                channel.basicAck(delivery.getEnvelope().getDeliveryTag(), false);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-                channel.basicNack(delivery.getEnvelope().getDeliveryTag(), false, false);
+        while(true){
+            GetResponse response = channel.basicGet(carQueueName, false);
+
+            if(response == null){
+                //No message received so we wait
+                Thread.sleep(5000);
+            } else {
+                String message = new String(response.getBody(), "UTF-8");
+                System.out.println("[*] Message received: '" + message + "'");
+
+                try{
+                    Thread.sleep(20000);
+                    channel.basicAck(response.getEnvelope().getDeliveryTag(), false);
+                } catch (InterruptedException e){
+                    e.printStackTrace();
+                    channel.basicNack(response.getEnvelope().getDeliveryTag(), false, false);
+                }
             }
-
-        };
-
-        channel.basicConsume(carQueueName, false, deliverCallback, consumerTag -> {});
+        }
     }
 }

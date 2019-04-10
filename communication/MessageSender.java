@@ -53,11 +53,18 @@ public class MessageSender {
         }
     }
 
-    public void sendMessageToCar(String message) throws Exception{
+    public void sendStatusUpdate(String message) throws Exception {
+
+        channel.queueDeclare(exchangeName, false, false, false, null);
+        channel.basicPublish("", exchangeName, null, message.getBytes("UTF-8"));
+        System.out.println("[x] Status update was sent to the Politie Client");
+    }
+
+    public void sendMessageToCar(String message, String dlxname, String dlxrouting) throws Exception{
         Map<String, Object> args = new HashMap<>();
         args.put("x-message-ttl", 60000);
-        args.put("x-dead-letter-exchange", "dlx-police-car");
-        args.put("x-dead-letter-routing-key", "police-car");
+        args.put("x-dead-letter-exchange", dlxname);
+        args.put("x-dead-letter-routing-key", dlxrouting);
         channel.queueDeclare(exchangeName, false, false, false, args);
         channel.basicPublish("", exchangeName, null, message.getBytes("UTF-8"));
         System.out.println("[x] Message was sent to " + exchangeName);

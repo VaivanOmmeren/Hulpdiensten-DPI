@@ -44,7 +44,7 @@ public class DeadLetter {
 
         channel.queueBind(queueName, serviceName, routingKey);
 
-        System.out.println("[*] Waiting for police car dead letters. To exit press CTRL + C");
+        System.out.println("[*] Waiting for dead letters. To exit press CTRL + C");
 
         DeliverCallback callback = (consumerTag, delivery) ->{
             String message =  new String(delivery.getBody(), "UTF-8");
