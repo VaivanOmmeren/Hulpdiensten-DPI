@@ -46,7 +46,7 @@ public class MessageReceiver {
         channel.basicConsume(statusQueueName, false, callback, consumerTag -> {});
     }
 
-    public void carStartReceiving(String carQueueName) throws Exception {
+    public void carStartReceiving(String carQueueName, StatusUpdateListener listener) throws Exception {
         factory = new ConnectionFactory();
         factory.setHost("localhost");
         connection = factory.newConnection();
@@ -60,6 +60,7 @@ public class MessageReceiver {
 
 
         while(true){
+            listener.sendStatusUpdate();
             GetResponse response = channel.basicGet(carQueueName, false);
 
             if(response == null){

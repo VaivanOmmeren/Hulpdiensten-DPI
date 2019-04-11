@@ -8,15 +8,21 @@ public class CarGateway {
     public CarGateway(){
         try{
             messageReceiver =  new MessageReceiver();
-            messageReceiver.carStartReceiving("policeCarQueue");
             messageSender = new MessageSender("PoliceCarStatusQueue");
+            messageReceiver.carStartReceiving("policeCarQueue", sendUpdate(messageSender));
 
-            while(true) {
-                messageSender.sendStatusUpdate("location");
-                Thread.sleep(20000);
-            }
         } catch (Exception e){
             e.printStackTrace();
         }
+    }
+
+    public StatusUpdateListener sendUpdate(MessageSender sender) {
+       return () -> {
+           try {
+               sender.sendStatusUpdate("location");
+           } catch (Exception e) {
+               e.printStackTrace();
+           }
+       };
     }
 }
